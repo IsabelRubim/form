@@ -1,0 +1,43 @@
+body {
+    background-image: linear-gradient(to right bottom, lightblue, blue);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+form {
+    max-width: 200px;
+    margin: 40px auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 -2px 15px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 5px;
+    padding: 9px 10px;
+    cursor: pointer;
+}
+
+.sucess {
+    border: 2px solid limegreen;
+}
+
+.error {
+    border: 2px solid crimson;
+}
